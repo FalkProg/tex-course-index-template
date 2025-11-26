@@ -31,7 +31,7 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 *****************************************************************************************************
  Sort entries consist of a number and a letter to be inserted in the standard 'Symbols' section }
 
-\indexentry{1a@\textbf{Course Philosophy}|book{1}}{1-10}
+\indexentry{1a@\textbf{Course Philosophy}|book{1}}{2-10}
 
 \indexentry{1b@\blankline|comment}{0}
 
@@ -39,9 +39,9 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 
 \indexentry{1d@\blankline|comment}{0}
 
-\indexentry{2a@\textbf{Chapters}!1) First chapter|book{2}}{1-60}
-\indexentry{2a@\textbf{Chapters}!2) Second chapter|book{2}}{61-100}
-\indexentry{2a@\textbf{Chapters}!3) Third chapter|book{3}}{1-80}
+\indexentry{2a@\textbf{Chapters}!1) Incident Response & Threat Hunting & Threat Intelligence|book{1}}{1-51}
+\indexentry{2a@\textbf{Chapters}!2) Malware |book{1}}{52-89}
+\indexentry{2a@\textbf{Chapters}!3) Data Collection |book{1}}{90-119}
 \indexentry{2a@\textbf{Chapters}!4) Fourth chapter|book{3}}{81-120}
 
 \indexentry{2z@\blankline|comment}{0}
@@ -69,8 +69,15 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 
 \indexentry{101@\blankline|comment}{0}
 
-\indexentry{200@\textbf{Tools}!A nice tool|book{1}}{57}
+\indexentry{200@\textbf{Tools}!Autoruns from Sysiternal - sc|book{1}}{77}
+\indexentry{200@\textbf{Tools}!Autoruns from Sysiternal - sc|book{1}}{87-88}
+\indexentry{200@\textbf{Tools}!Kansa - PowerShell IR Framework|book{1}}{100-108}
+\indexentry{200@\textbf{Tools}!KAPE |book{1}}{109-110}
 \indexentry{200@\textbf{Tools}!Another nice tool|book{3}}{22}
+
+\indexentry{201@\blankline|comment}{0}
+
+\indexentry{300@\textbf{Overviews}!Detecting Malware (Win Forensic)|book{1}}{56}
 
 \indexentry{999@\blankline|newpage \comment}{0}
 
@@ -80,7 +87,47 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \comment{********************************************************************************************
                                        FIRST BOOK SECTION
 *****************************************************************************************************}
-\indexentry{My first reference|book{1}}{6}
+\indexentry{Incident Cylce |book{1}}{25-35}
+\indexentry{Thrat Huntig Process |book{1}}{36-38}
+\indexentry{Active Cyber Defense |book{1}}{39}
+\indexentry{Attack Lifecycle |book{1}}{42}
+\indexentry{Cyber Threat Intelligence|book{1}}{44-51}
+\indexentry{ C2 |book{1}}{57} 
+\indexentry{ Plain Sight|book{1}}{59-61} 
+\indexentry{Malware Abnormalities|book{1}}{65}
+\indexentry{Malware Persitence Mechanisms|book{1}}{67-69}
+\indexentry{Malware Persitence Location Registry (ASEPs)|book{1}}{68} 
+\indexentry{Services |book{1}}{70-72} 
+\indexentry{Tasks |book{1}}{73-74} 
+\indexentry{DLL |book{1}}{75-79} 
+\indexentry{WMI |book{1}}{80-86}
+\indexentry{Rapid-Response Tooling |book{1}}{93} 
+\indexentry{KANSA |book{1}}{94}
+\indexentry{Powershell Basics|book{1}}{95-96}
+\indexentry{Powershell Remoting |book{1}}{97-98}
+\indexentry{Poershell Authentication |book{1}}{99}
+\indexentry{KANSA |book{1}}{100-108} 
+\indexentry{KANSA Modules |book{1}}{102-103}
+\indexentry{KANSA Running|book{1}}{104-108}
+\indexentry{KAPE |book{1}}{109-110}
+\indexentry{Velocirpator |book{1}}{111-119}
+\indexentry{Velocirpator Artifacts |book{1}}{111-114}
+\indexentry{Velocirpator Hunting |book{1}}{115}
+\indexentry{Velocirpator Analysis |book{1}}{116-117}
+\indexentry{Velocirpator VQL |book{1}}{118-119}
+\indexentry{Authentication  Local |book{1}}{127-129}
+\indexentry{Authentication|book{1}}{123-126}
+\indexentry{Authorization |book{1}}{123-126}
+\indexentry{NTLMv2 |book{1}}{132}
+\indexentry{NTLMv2 DC |book{1}}{135}
+\indexentry{Domain Account |book{1}}{133-136}
+\indexentry{Pass the HASH |book{1}}{137-138}
+\indexentry{Kereberos Long-Term Keys (LTK)}|book{}1{}
+
+
+
+
+
 
 
 \comment{********************************************************************************************
@@ -104,4 +151,5 @@ USER DEFINED COMMANDS AND SPECIAL SYNTAX
 \comment{********************************************************************************************
                                       CROSS-KEYS SECTION
 *****************************************************************************************************}
-\indexentry{A sample cross-reference \goto A useful reference|comment}{0}
+\indexentry{Local Account \goto NTLMv2 and |comment}{0}
+\indexentry{Long Term Key \goto  Kerberos Long-Term Keys |comment}{0} 

@@ -12,6 +12,10 @@
 %  \tiny, \scriptsize, \footnotesize, \small, \normalsize, \large, \LARGE, \huge, \HUGE
 
 \documentclass[a4paper,10pt]{article}
+
+
+
+
 \usepackage{fancyhdr}
 \usepackage{multicol}
 \usepackage{makeidx}
@@ -20,6 +24,13 @@
 \usepackage{forloop}
 \usepackage{graphicx}
 \usepackage[document]{ragged2e}
+
+\usepackage{imakeidx}
+\makeindex[
+  name=course,
+  program=makeindex,
+  options=-s lib/std.ist
+]
 
 % setmarginsrb{1}{2}{3}{4}{5}{6}{7}{8}
 %  1) Left margin       5) Header heigth
@@ -96,6 +107,8 @@
 	{\end{multicols}}  
 \let\ps@plain\ps@fancy
 \makeatother
+
+
 \begin{document}
-	\printindex
+    \printindex[course]
 \end{document}
